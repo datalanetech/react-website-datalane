@@ -28,19 +28,19 @@ class Navbar extends Component {
 										Services
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a className='nav-link scrollto' href='#portfolio'>
 										Portfolio
 									</a>
-								</li>
-								<li>
+								</li> */}
+								{/* <li>
 									<a className='nav-link scrollto' href='#team'>
 										Team
 									</a>
-								</li>
-								<li>
+								</li> */}
+								{/* <li>
 									<a href='blog.html'>Blog</a>
-								</li>
+								</li> */}
 								<li>
 									<a className='nav-link scrollto' href='#contact'>
 										Contact
