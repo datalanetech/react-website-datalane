@@ -3,6 +3,8 @@ import Navbar from './components/navbar';
 import React, { Component } from 'react';
 import Values from './components/Values';
 import ServiceCard from './components/ServiceCard';
+import FeatureTile from './components/FeatureTile';
+import BlogCard from './components/BlogCard';
 
 class App extends Component {
 	render() {
@@ -154,47 +156,17 @@ class App extends Component {
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
 									<div className='row align-self-center gy-4'>
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='200'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Eos aspernatur rem</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Eos aspernatur rem'} />
 
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='300'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Facilis neque ipsa</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Facilis neque ipsa'} />
 
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='400'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Volup amet voluptas</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Volup amet voluptas'} />
 
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='500'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Rerum omnis sint</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Rerum omnis sint'} />
 
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='600'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Alias possimus</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Alias possimus'} />
 
-										<div className='col-md-6' data-aos='zoom-out' data-aos-delay='700'>
-											<div className='feature-box d-flex align-items-center'>
-												<i className='bi bi-check'></i>
-												<h3>Repellendus mollitia</h3>
-											</div>
-										</div>
+										<FeatureTile description={'Repellendus mollitia'} />
 									</div>
 								</div>
 							</div>
@@ -1195,51 +1167,23 @@ class App extends Component {
 							</header>
 
 							<div className='row'>
-								<div className='col-lg-4'>
-									<div className='post-box'>
-										<div className='post-img'>
-											<img src='assets/img/blog/blog-1.jpg' className='img-fluid' alt='' />
-										</div>
-										<span className='post-date'>Tue, September 15</span>
-										<h3 className='post-title'>
-											Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit
-										</h3>
-										<a href='blog-single.html' className='readmore stretched-link mt-auto'>
-											<span>Read More</span>
-											<i className='bi bi-arrow-right'></i>
-										</a>
-									</div>
-								</div>
+								<BlogCard
+									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
+									date='Tue, September 15'
+									image='../assets/img/blog/blog-1.jpg'
+								/>
 
-								<div className='col-lg-4'>
-									<div className='post-box'>
-										<div className='post-img'>
-											<img src='assets/img/blog/blog-2.jpg' className='img-fluid' alt='' />
-										</div>
-										<span className='post-date'>Fri, August 28</span>
-										<h3 className='post-title'>
-											Et repellendus molestiae qui est sed omnis voluptates magnam
-										</h3>
-										<a href='blog-single.html' className='readmore stretched-link mt-auto'>
-											<span>Read More</span>
-											<i className='bi bi-arrow-right'></i>
-										</a>
-									</div>
-								</div>
+								<BlogCard
+									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
+									date='Tue, September 15'
+									image='../assets/img/blog/blog-1.jpg'
+								/>
 
-								<div className='col-lg-4'>
-									<div className='post-box'>
-										<div className='post-img'>
-											<img src='assets/img/blog/blog-3.jpg' className='img-fluid' alt='' />
-										</div>
-										<span className='post-date'>Mon, July 11</span>
-										<h3 className='post-title'>Quia assumenda est et veritatis aut quae</h3>
-										<a href='blog-single.html' className='readmore stretched-link mt-auto'>
-											<span>Read More</span>
-											<i className='bi bi-arrow-right'></i>
-										</a>
-									</div>
-								</div>
+								<BlogCard
+									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
+									date='Tue, September 15'
+									image='../assets/img/blog/blog-1.jpg'
+								/>
 							</div>
 						</div>
 					</section>
