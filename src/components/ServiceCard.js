@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ color, title, description }) => {
+const ServiceCard = ({ color, title, description }) => {
 	return (
 		<div className='col-lg-4 col-md-6' data-aos='fade-up' data-aos-delay='700'>
 			<div className={`service-box ${color}`}>
@@ -15,4 +15,4 @@ const Card = ({ color, title, description }) => {
 	);
 };
 
-export default Card;
+export default ServiceCard;

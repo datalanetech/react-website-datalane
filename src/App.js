@@ -2,7 +2,7 @@ import Navbar from './components/navbar';
 
 import React, { Component } from 'react';
 import Values from './components/Values';
-import Card from './components/Card';
+import ServiceCard from './components/ServiceCard';
 
 class App extends Component {
 	render() {
@@ -396,42 +396,42 @@ class App extends Component {
 							</header>
 
 							<div className='row gy-4'>
-								<Card
+								<ServiceCard
 									title='Eosle Commodi'
 									color='blue'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
 											corrupti neque eum hic non ut nesciunt dolorem.'
 								/>
 
-								<Card
+								<ServiceCard
 									title='Eosle Commodi'
 									color='orange'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
 											corrupti neque eum hic non ut nesciunt dolorem.'
 								/>
 
-								<Card
+								<ServiceCard
 									title='Ledo Markt'
 									color='green'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
 											corrupti neque eum hic non ut nesciunt dolorem.'
 								/>
 
-								<Card
+								<ServiceCard
 									title='Ledo Markt'
 									color='red'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
 											corrupti neque eum hic non ut nesciunt dolorem.'
 								/>
 
-								<Card
+								<ServiceCard
 									title='Ledo Markt'
 									color='purple'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
 											corrupti neque eum hic non ut nesciunt dolorem.'
 								/>
 
-								<Card
+								<ServiceCard
 									title='Ledo Markt'
 									color='pink'
 									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
