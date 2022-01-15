@@ -2,40 +2,45 @@ import Navbar from './components/navbar';
 
 import React, { Component } from 'react';
 import Values from './components/Values';
-import ServiceCard from './components/ServiceCard';
 import FeatureTile from './components/FeatureTile';
 import BlogCard from './components/BlogCard';
+import ServiceComponent from './components/ServiceComponent';
+// import TestimonialsComponent from './components/TestimonialsComponent';
+// import TeamComponent from './components/TeamComponent';
+// import BlogPosts from './components/BlogPosts';
+// import PortfolioComponent from './components/PortfolioComponent';
+import Footer from './components/Footer';
+// import PricingComponent from './components/PricingComponent';
 
 class App extends Component {
 	render() {
 		return (
 			<div className='App'>
 				<Navbar />
-				<section id='hero' className='hero d-flex align-items-center'>
-					<div className='container'>
-						<div className='row'>
-							<div className='col-lg-6 d-flex flex-column justify-content-center'>
-								<h1 data-aos='fade-up'>We offer modern solutions for growing your business</h1>
-								<h2 data-aos='fade-up' data-aos-delay='400'>
-									We are team of talented designers making websites with Bootstrap
-								</h2>
-								<div data-aos='fade-up' data-aos-delay='600'>
-									<div className='text-center text-lg-start'>
-										<a
-											href='#about'
-											className='btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center'>
-											<span>Get Started</span>
-											<i className='bi bi-arrow-right'></i>
-										</a>
-									</div>
-								</div>
-							</div>
-							<div className='col-lg-6 hero-img' data-aos='zoom-out' data-aos-delay='200'>
-								<img src='assets/img/hero-img.png' className='img-fluid' alt='' />
-							</div>
-						</div>
-					</div>
-				</section>
+				<section id="hero" class="hero d-flex align-items-center">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">Welcome to Datalane!</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">We deliver next generation applications, to transform your ideas into action.
+                </h2>
+                <div data-aos="fade-up" data-aos-delay="600">
+                  <div class="text-center text-lg-start">
+                    <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                      <span>Get Started</span>
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                <img src="assets/img/hero-img.png" class="img-fluid" alt=""/>
+              </div>
+            </div>
+          </div>
+
+        </section>
 
 				<main id='main'>
 					<section id='about' className='about'>
@@ -46,20 +51,13 @@ class App extends Component {
 									data-aos='fade-up'
 									data-aos-delay='200'>
 									<div className='content'>
-										<h3>Who We Are</h3>
-										<h2>
-											Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est
-											repellat corrupti reprehenderit.
-										</h2>
-										<p>
-											Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore
-											et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur
-											suscipit voluptatum nam et est corrupti.
-										</p>
+                  <h3>Why Datalane?</h3>
+                  <h2> Datalane brings value to your business by embracing the advancements in technology.</h2>
+                  <p>
+                    We are a team of visionaries with technology-first approach, for transforming brands around the world, through our services. Our services ensure battle-tested reliability and intelligent optimizations based on Machine learning. 
+                  </p>
 										<div className='text-center text-lg-start'>
-											<a
-												href='#'
-												className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
+											<a href='#' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
 												<span>Read More</span>
 												<i className='bi bi-arrow-right'></i>
 											</a>
@@ -360,140 +358,9 @@ class App extends Component {
 						</div>
 					</section>
 
-					<section id='services' className='services'>
-						<div className='container' data-aos='fade-up'>
-							<header className='section-header'>
-								<h2>Services</h2>
-								<p>Veritatis et dolores facere numquam et praesentium</p>
-							</header>
+					<ServiceComponent/>
 
-							<div className='row gy-4'>
-								<ServiceCard
-									title='Eosle Commodi'
-									color='blue'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-
-								<ServiceCard
-									title='Eosle Commodi'
-									color='orange'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-
-								<ServiceCard
-									title='Ledo Markt'
-									color='green'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-
-								<ServiceCard
-									title='Ledo Markt'
-									color='red'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-
-								<ServiceCard
-									title='Ledo Markt'
-									color='purple'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-
-								<ServiceCard
-									title='Ledo Markt'
-									color='pink'
-									description='Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero
-											corrupti neque eum hic non ut nesciunt dolorem.'
-								/>
-							</div>
-						</div>
-					</section>
-
-					{/* // <! -- <section id="pricing" className="pricing">
-      
-            <div className="container" data-aos="fade-up">
-      
-              <header className="section-header">
-                <h2>Pricing</h2>
-                <p>Check our Pricing</p>
-              </header>
-      
-              <div className="row gy-4" data-aos="fade-left">
-      
-                <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                  <div className="box">
-                    <h3 style="color: #07d5c0;">Free Plan</h3>
-                    <div className="price"><sup>$</sup>0<span> / mo</span></div>
-                    <img src="assets/img/pricing-free.png" className="img-fluid" alt="" />
-                    <ul>
-                      <li>Aida dere</li>
-                      <li>Nec feugiat nisl</li>
-                      <li>Nulla at volutpat dola</li>
-                      <li className="na">Pharetra massa</li>
-                      <li className="na">Massa ultricies mi</li>
-                    </ul>
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-      
-                <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                  <div className="box">
-                    <span className="featured">Featured</span>
-                    <h3 style="color: #65c600;">Starter Plan</h3>
-                    <div className="price"><sup>$</sup>19<span> / mo</span></div>
-                    <img src="assets/img/pricing-starter.png" className="img-fluid" alt="" />
-                    <ul>
-                      <li>Aida dere</li>
-                      <li>Nec feugiat nisl</li>
-                      <li>Nulla at volutpat dola</li>
-                      <li>Pharetra massa</li>
-                      <li className="na">Massa ultricies mi</li>
-                    </ul>
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-      
-                <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                  <div className="box">
-                    <h3 style="color: #ff901c;">Business Plan</h3>
-                    <div className="price"><sup>$</sup>29<span> / mo</span></div>
-                    <img src="assets/img/pricing-business.png" className="img-fluid" alt="" />
-                    <ul>
-                      <li>Aida dere</li>
-                      <li>Nec feugiat nisl</li>
-                      <li>Nulla at volutpat dola</li>
-                      <li>Pharetra massa</li>
-                      <li>Massa ultricies mi</li>
-                    </ul>
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-      
-                <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                  <div className="box">
-                    <h3 style="color: #ff0071;">Ultimate Plan</h3>
-                    <div className="price"><sup>$</sup>49<span> / mo</span></div>
-                    <img src="assets/img/pricing-ultimate.png" className="img-fluid" alt="" />
-                    <ul>
-                      <li>Aida dere</li>
-                      <li>Nec feugiat nisl</li>
-                      <li>Nulla at volutpat dola</li>
-                      <li>Pharetra massa</li>
-                      <li>Massa ultricies mi</li>
-                    </ul>
-                    <a href="#" className="btn-buy">Buy Now</a>
-                  </div>
-                </div>
-      
-              </div>
-      
-            </div>
-      
-          </section>End Pricing Section --> */}
+					{/* <PricingComponent/> */}
 
 					<section id='faq' className='faq'>
 						<div className='container' data-aos='fade-up'>
@@ -654,471 +521,13 @@ class App extends Component {
 						</div>
 					</section>
 
-					<section id='portfolio' className='portfolio'>
-						<div className='container' data-aos='fade-up'>
-							<header className='section-header'>
-								<h2>Portfolio</h2>
-								<p>Check our latest work</p>
-							</header>
+					
 
-							<div className='row' data-aos='fade-up' data-aos-delay='100'>
-								<div className='col-lg-12 d-flex justify-content-center'>
-									<ul id='portfolio-flters'>
-										<li data-filter='*' className='filter-active'>
-											All
-										</li>
-										<li data-filter='.filter-app'>App</li>
-										<li data-filter='.filter-card'>Card</li>
-										<li data-filter='.filter-web'>Web</li>
-									</ul>
-								</div>
-							</div>
+					{/*<PortfolioComponent/> 
+          
+          <TestimonialsComponent/>
 
-							<div className='row gy-4 portfolio-container' data-aos='fade-up' data-aos-delay='200'>
-								<div className='col-lg-4 col-md-6 portfolio-item filter-app'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-1.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>App 1</h4>
-											<p>App</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-1.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='App 1'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-web'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-2.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Web 3</h4>
-											<p>Web</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-2.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Web 3'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-app'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-3.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>App 2</h4>
-											<p>App</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-3.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='App 2'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-card'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-4.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Card 2</h4>
-											<p>Card</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-4.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Card 2'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-web'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-5.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Web 2</h4>
-											<p>Web</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-5.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Web 2'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-app'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-6.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>App 3</h4>
-											<p>App</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-6.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='App 3'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-card'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-7.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Card 1</h4>
-											<p>Card</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-7.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Card 1'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-card'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-8.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Card 3</h4>
-											<p>Card</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-8.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Card 3'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-4 col-md-6 portfolio-item filter-web'>
-									<div className='portfolio-wrap'>
-										<img src='assets/img/portfolio/portfolio-9.jpg' className='img-fluid' alt='' />
-										<div className='portfolio-info'>
-											<h4>Web 3</h4>
-											<p>Web</p>
-											<div className='portfolio-links'>
-												<a
-													href='assets/img/portfolio/portfolio-9.jpg'
-													data-gallery='portfolioGallery'
-													className='portfokio-lightbox'
-													title='Web 3'>
-													<i className='bi bi-plus'></i>
-												</a>
-												<a href='portfolio-details.html' title='More Details'>
-													<i className='bi bi-link'></i>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					{/* <section id="testimonials" className="testimonials">
-      
-            <div className="container" data-aos="fade-up">
-      
-              <header className="section-header">
-                <h2>Testimonials</h2>
-                <p>What they are saying about us</p>
-              </header>
-      
-              <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-                <div className="swiper-wrapper">
-      
-                  <div className="swiper-slide">
-                    <div className="testimonial-item">
-                      <div className="stars">
-                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      </p>
-                      <div className="profile mt-auto">
-                        <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div className="swiper-slide">
-                    <div className="testimonial-item">
-                      <div className="stars">
-                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                      </p>
-                      <div className="profile mt-auto">
-                        <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div className="swiper-slide">
-                    <div className="testimonial-item">
-                      <div className="stars">
-                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      </p>
-                      <div className="profile mt-auto">
-                        <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div className="swiper-slide">
-                    <div className="testimonial-item">
-                      <div className="stars">
-                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                      </p>
-                      <div className="profile mt-auto">
-                        <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
-                      </div>
-                    </div>
-                  </div>
-      
-                  <div className="swiper-slide">
-                    <div className="testimonial-item">
-                      <div className="stars">
-                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                      </p>
-                      <div className="profile mt-auto">
-                        <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
-                      </div>
-                    </div>
-                  </div>
-      
-                </div>
-                <div className="swiper-pagination"></div>
-              </div>
-      
-            </div>
-      
-          </section> */}
-
-					<section id='team' className='team'>
-						<div className='container' data-aos='fade-up'>
-							<header className='section-header'>
-								<h2>Team</h2>
-								<p>Our hard working team</p>
-							</header>
-
-							<div className='row gy-4'>
-								<div
-									className='col-lg-3 col-md-6 d-flex align-items-stretch'
-									data-aos='fade-up'
-									data-aos-delay='100'>
-									<div className='member'>
-										<div className='member-img'>
-											<img src='assets/img/team/team-1.jpg' className='img-fluid' alt='' />
-											<div className='social'>
-												<a href=''>
-													<i className='bi bi-twitter'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-facebook'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-instagram'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-linkedin'></i>
-												</a>
-											</div>
-										</div>
-										<div className='member-info'>
-											<h4>Walter White</h4>
-											<span>Chief Executive Officer</span>
-											<p>
-												Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa
-												quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div
-									className='col-lg-3 col-md-6 d-flex align-items-stretch'
-									data-aos='fade-up'
-									data-aos-delay='200'>
-									<div className='member'>
-										<div className='member-img'>
-											<img src='assets/img/team/team-2.jpg' className='img-fluid' alt='' />
-											<div className='social'>
-												<a href=''>
-													<i className='bi bi-twitter'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-facebook'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-instagram'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-linkedin'></i>
-												</a>
-											</div>
-										</div>
-										<div className='member-info'>
-											<h4>Sarah Jhonson</h4>
-											<span>Product Manager</span>
-											<p>
-												Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil
-												minima suscipit corporis. Voluptate sed quas reiciendis animi neque
-												sapiente.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div
-									className='col-lg-3 col-md-6 d-flex align-items-stretch'
-									data-aos='fade-up'
-									data-aos-delay='300'>
-									<div className='member'>
-										<div className='member-img'>
-											<img src='assets/img/team/team-3.jpg' className='img-fluid' alt='' />
-											<div className='social'>
-												<a href=''>
-													<i className='bi bi-twitter'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-facebook'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-instagram'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-linkedin'></i>
-												</a>
-											</div>
-										</div>
-										<div className='member-info'>
-											<h4>William Anderson</h4>
-											<span>CTO</span>
-											<p>
-												Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae
-												deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.
-											</p>
-										</div>
-									</div>
-								</div>
-
-								<div
-									className='col-lg-3 col-md-6 d-flex align-items-stretch'
-									data-aos='fade-up'
-									data-aos-delay='400'>
-									<div className='member'>
-										<div className='member-img'>
-											<img src='assets/img/team/team-4.jpg' className='img-fluid' alt='' />
-											<div className='social'>
-												<a href=''>
-													<i className='bi bi-twitter'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-facebook'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-instagram'></i>
-												</a>
-												<a href=''>
-													<i className='bi bi-linkedin'></i>
-												</a>
-											</div>
-										</div>
-										<div className='member-info'>
-											<h4>Amanda Jepson</h4>
-											<span>Accountant</span>
-											<p>
-												Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas.
-												Quia aut aliquid doloremque ut possimus ipsum officia.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
+					<TeamComponent/> */}
 
 					<section id='clients' className='clients'>
 						<div className='container' data-aos='fade-up'>
@@ -1225,9 +634,9 @@ class App extends Component {
 												<i className='bi bi-envelope'></i>
 												<h3>Email Us</h3>
 												<p>
-													info@example.com
-													<br />
-													contact@example.com
+													datalanetech@gmail.com
+													{/* <br />
+													contact@example.com */}
 												</p>
 											</div>
 										</div>
@@ -1238,7 +647,7 @@ class App extends Component {
 												<p>
 													Monday - Friday
 													<br />
-													9:00AM - 05:00PM
+													10:00AM - 07:00PM
 												</p>
 											</div>
 										</div>
@@ -1302,125 +711,7 @@ class App extends Component {
 					</section>
 				</main>
 
-				<footer id='footer' className='footer'>
-					<div className='footer-newsletter'>
-						<div className='container'>
-							<div className='row justify-content-center'>
-								<div className='col-lg-12 text-center'>
-									<h4>Our Newsletter</h4>
-									<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-								</div>
-								<div className='col-lg-6'>
-									<form action='' method='post'>
-										<input type='email' name='email' />
-										<input type='submit' value='Subscribe' />
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className='footer-top'>
-						<div className='container'>
-							<div className='row gy-4'>
-								<div className='col-lg-5 col-md-12 footer-info'>
-									<a href='index.html' className='logo d-flex align-items-center'>
-										<img src='assets/img/logo.png' alt='' />
-										<span>FlexStart</span>
-									</a>
-									<p>
-										Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa
-										magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
-									</p>
-									<div className='social-links mt-3'>
-										<a href='#' className='twitter'>
-											<i className='bi bi-twitter'></i>
-										</a>
-										<a href='#' className='facebook'>
-											<i className='bi bi-facebook'></i>
-										</a>
-										<a href='#' className='instagram'>
-											<i className='bi bi-instagram'></i>
-										</a>
-										<a href='#' className='linkedin'>
-											<i className='bi bi-linkedin'></i>
-										</a>
-									</div>
-								</div>
-
-								<div className='col-lg-2 col-6 footer-links'>
-									<h4>Useful Links</h4>
-									<ul>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Home</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>About us</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Services</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Terms of service</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Privacy policy</a>
-										</li>
-									</ul>
-								</div>
-
-								<div className='col-lg-2 col-6 footer-links'>
-									<h4>Our Services</h4>
-									<ul>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Web Design</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Web Development</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Product Management</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Marketing</a>
-										</li>
-										<li>
-											<i className='bi bi-chevron-right'></i> <a href='#'>Graphic Design</a>
-										</li>
-									</ul>
-								</div>
-
-								<div className='col-lg-3 col-md-12 footer-contact text-center text-md-start'>
-									<h4>Contact Us</h4>
-									<p>
-										A108 Adam Street <br />
-										New York, NY 535022
-										<br />
-										United States <br />
-										<br />
-										<strong>Phone:</strong> +1 5589 55488 55
-										<br />
-										<strong>Email:</strong> info@example.com
-										<br />
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div className='container'>
-						<div className='copyright'>
-							&copy; Copyright{' '}
-							<strong>
-								<span>FlexStart</span>
-							</strong>
-							. All Rights Reserved
-						</div>
-						<div className='credits'>
-							Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>
-						</div>
-					</div>
-				</footer>
+				<Footer/>
 
 				<a href='#' className='back-to-top d-flex align-items-center justify-content-center'>
 					<i className='bi bi-arrow-up-short'></i>
