@@ -75,7 +75,7 @@ class App extends Component {
 									className='col-lg-6 d-flex align-items-center'
 									data-aos='zoom-out'
 									data-aos-delay='200'>
-									<img src='assets/img/about.jpg' className='img-fluid' alt='' />
+									<img src='assets/img/korean_replacement.jpg' className='img-fluid' alt='' />
 								</div>
 							</div>
 						</div>
@@ -160,9 +160,9 @@ class App extends Component {
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
 									<div className='row align-self-center gy-4'>
-										<FeatureTile description={'Eos aspernatur rem'} />
+										<FeatureTile description={'Agile Approach'} />
 
-										<FeatureTile description={'Facilis neque ipsa'} />
+										<FeatureTile description={''} />
 
 										<FeatureTile description={'Volup amet voluptas'} />
 
@@ -178,100 +178,78 @@ class App extends Component {
 							<div className='row feture-tabs' data-aos='fade-up'>
 								<div className='col-lg-6'>
 									<h3>
-										Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero
+										What We Do?
 									</h3>
 
 									<ul className='nav nav-pills mb-3'>
 										<li>
 											<a className='nav-link active' data-bs-toggle='pill' href='#tab1'>
-												Saepe fuga
+												Strategy
 											</a>
 										</li>
 										<li>
 											<a className='nav-link' data-bs-toggle='pill' href='#tab2'>
-												Voluptates
+												Talent
 											</a>
 										</li>
 										<li>
 											<a className='nav-link' data-bs-toggle='pill' href='#tab3'>
-												Corrupti
+												Technology
 											</a>
 										</li>
 									</ul>
 
 									<div className='tab-content'>
 										<div className='tab-pane fade show active' id='tab1'>
+
+											<div className='d-flex align-items-center mb-2'>
+												<i className='bi bi-check2'></i>
+												<h4>CX Consulting + Design</h4>
+											</div>
 											<p>
-												Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus
-												expedita. Sapiente atque consequatur minima nihil quae aspernatur quo
-												suscipit voluptatem.
+											Built on data.  Informed by insight.  Everything we do is seamless, secure and customer-centric.  Or should we say, customer-centrix.
 											</p>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+												<h4>Experience channels and Innovation</h4>
 											</div>
 											<p>
-												Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente
-												minima commodi dolorum non eveniet magni quaerat nemo et.
-											</p>
-											<div className='d-flex align-items-center mb-2'>
-												<i className='bi bi-check2'></i>
-												<h4>Incidunt non veritatis illum ea ut nisi</h4>
-											</div>
-											<p>
-												Non quod totam minus repellendus autem sint velit. Rerum debitis facere
-												soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi
-												voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+											We craft delightful, outcome-driven experiences for consumers, partners and employees by building cutting edge digital experiences for web, mobile and other devices
 											</p>
 										</div>
 
 										<div className='tab-pane fade show' id='tab2'>
+											<div className='d-flex align-items-center mb-2'>
+												<i className='bi bi-check2'></i>
+												<h4>Digital CX Operations</h4>
+											</div>
 											<p>
-												Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus
-												expedita. Sapiente atque consequatur minima nihil quae aspernatur quo
-												suscipit voluptatem.
+											Datalane powers a diverse range of client solutions.  Technology enables us to  operationalize programs at scale.  Expertise lets us make each experience personal.
 											</p>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+												<h4>Automated Infrastructure and Applications</h4>
 											</div>
 											<p>
-												Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente
-												minima commodi dolorum non eveniet magni quaerat nemo et.
-											</p>
-											<div className='d-flex align-items-center mb-2'>
-												<i className='bi bi-check2'></i>
-												<h4>Incidunt non veritatis illum ea ut nisi</h4>
-											</div>
-											<p>
-												Non quod totam minus repellendus autem sint velit. Rerum debitis facere
-												soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi
-												voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+											Enterprise IT infrastructure, applications & end-user support in a hyper-automated unified IT operating model.
 											</p>
 										</div>
 
 										<div className='tab-pane fade show' id='tab3'>
+
+											<div className='d-flex align-items-center mb-2'>
+												<i className='bi bi-check2'></i>
+												<h4>Digital CX Technology</h4>
+											</div>
 											<p>
-												Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus
-												expedita. Sapiente atque consequatur minima nihil quae aspernatur quo
-												suscipit voluptatem.
+											Today we supply technology and build experiences that we could only dream of yesterday. And we are already creating tomorrow’s digital, AI and cloud-based experiences. Imagine where our journey will take us next.
 											</p>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+												<h4>Digital Security</h4>
 											</div>
 											<p>
-												Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente
-												minima commodi dolorum non eveniet magni quaerat nemo et.
-											</p>
-											<div className='d-flex align-items-center mb-2'>
-												<i className='bi bi-check2'></i>
-												<h4>Incidunt non veritatis illum ea ut nisi</h4>
-											</div>
-											<p>
-												Non quod totam minus repellendus autem sint velit. Rerum debitis facere
-												soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi
-												voluptates nisi at. Dolorem quo tempora. Quia et perferendis.
+											Enterprise cyber security that provides cyber protection, cyber defense, IAM, and GRC services.
 											</p>
 										</div>
 									</div>
@@ -283,11 +261,11 @@ class App extends Component {
 							</div>
 
 							<div className='row feature-icons' data-aos='fade-up'>
-								<h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+								<h3>How We Work?</h3>
 
 								<div className='row'>
 									<div className='col-xl-4 text-center' data-aos='fade-right' data-aos-delay='100'>
-										<img src='assets/img/features-3.png' className='img-fluid p-4' alt='' />
+										<img src='assets/img/features.png' className='img-fluid p-4' alt='' />
 									</div>
 
 									<div className='col-xl-8 d-flex content'>
@@ -295,10 +273,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up'>
 												<i className='ri-line-chart-line'></i>
 												<div>
-													<h4>Corporis voluptates sit</h4>
+													<h4>Agile Approach</h4>
 													<p>
-														Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris
-														nisi ut aliquip
+													Scrum and Kanban framework applied to leverage collaboration and deliver complex solutions.
 													</p>
 												</div>
 											</div>
@@ -306,10 +283,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='100'>
 												<i className='ri-stack-line'></i>
 												<div>
-													<h4>Ullamco laboris nisi</h4>
+													<h4>Hybird-Cloud</h4>
 													<p>
-														Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-														officia deserunt
+														We build cloud agnostic applications which can be easily deployed on Azure, GCP, AWS and On-Premise as well.
 													</p>
 												</div>
 											</div>
@@ -317,10 +293,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='200'>
 												<i className='ri-brush-4-line'></i>
 												<div>
-													<h4>Labore consequatur</h4>
+													<h4>Streams</h4>
 													<p>
-														Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-														facere
+													DevOps, App Dev & Modernization, Data Mod & Insights, Automation.
 													</p>
 												</div>
 											</div>
@@ -328,10 +303,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='300'>
 												<i className='ri-magic-line'></i>
 												<div>
-													<h4>Beatae veritatis</h4>
+													<h4>Delivery</h4>
 													<p>
-														Expedita veritatis consequuntur nihil tempore laudantium vitae denat
-														pacta
+													Focus on Research & Development, develop and deliver new solutions to customers.​
 													</p>
 												</div>
 											</div>
@@ -339,10 +313,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='400'>
 												<i className='ri-command-line'></i>
 												<div>
-													<h4>Molestiae dolor</h4>
+													<h4>Insights and action​</h4>
 													<p>
-														Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor
-														marte
+													We charge your business by deriving data insights and help create value through analytics and AI solutions.
 													</p>
 												</div>
 											</div>
@@ -350,10 +323,9 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='500'>
 												<i className='ri-radar-line'></i>
 												<div>
-													<h4>Explicabo consectetur</h4>
+													<h4>Data Modernization</h4>
 													<p>
-														Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut
-														inventore
+														We build  futuristic data supply chain and transform your data ecosystem from silos to a unified data marketplace.
 													</p>
 												</div>
 											</div>
