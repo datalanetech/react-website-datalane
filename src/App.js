@@ -155,28 +155,28 @@ class App extends Component {
 					<section id='features' className='features'>
 						<div className='container' data-aos='fade-up'>
 							<header className='section-header'>
-								<h2>Features</h2>
-								<p>Laboriosam et omnis fuga quis dolor direda fara</p>
+								{/* <h2>Our Expertis</h2> */}
+								<p>Our Expertise</p>
 							</header>
 
 							<div className='row'>
 								<div className='col-lg-6'>
-									<img src='assets/img/features.png' className='img-fluid' alt='' />
+									<img src='assets/img/features-3.png' className='img-fluid' alt=''/>
 								</div>
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
 									<div className='row align-self-center gy-4'>
-										<FeatureTile description={'Agile Approach'} />
+										<FeatureTile description={'Cloud Solutions'} />
 
-										<FeatureTile description={''} />
+										<FeatureTile description={'Devops'} />
 
-										<FeatureTile description={'Volup amet voluptas'} />
+										<FeatureTile description={'Automation'} />
 
-										<FeatureTile description={'Rerum omnis sint'} />
+										<FeatureTile description={'Microservices'} />
 
-										<FeatureTile description={'Alias possimus'} />
+										<FeatureTile description={'Analytics Solutions'} />
 
-										<FeatureTile description={'Repellendus mollitia'} />
+										<FeatureTile description={'Data Inteligence'} />
 									</div>
 								</div>
 							</div>
@@ -190,7 +190,7 @@ class App extends Component {
 									<ul className='nav nav-pills mb-3'>
 										<li>
 											<a className='nav-link active' data-bs-toggle='pill' href='#tab1'>
-												Strategy
+												Delivery
 											</a>
 										</li>
 										<li>
@@ -208,36 +208,37 @@ class App extends Component {
 									<div className='tab-content'>
 										<div className='tab-pane fade show active' id='tab1'>
 
-											<div className='d-flex align-items-center mb-2'>
+										<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>CX Consulting + Design</h4>
-											</div>
-											<p>
-											Built on data.  Informed by insight.  Everything we do is seamless, secure and customer-centric.  Or should we say, customer-centrix.
-											</p>
-											<div className='d-flex align-items-center mb-2'>
-												<i className='bi bi-check2'></i>
-												<h4>Experience channels and Innovation</h4>
+												<h4>World Class Consulting</h4>
 											</div>
 											<p>
 											We craft delightful, outcome-driven experiences for consumers, partners and employees by building cutting edge digital experiences for web, mobile and other devices
 											</p>
+											<div className='d-flex align-items-center mb-2'>
+												<i className='bi bi-check2'></i>
+												<h4>Consumer Centric</h4>
+											</div>
+											<p>
+											Everything we do is seamless, secure and customer-centric. Customer is the focal point of all decisions related to delivering products
+											</p>
+
 										</div>
 
 										<div className='tab-pane fade show' id='tab2'>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Operations</h4>
+												<h4>Experience</h4>
 											</div>
 											<p>
 											Datalane powers a diverse range of client solutions.  Technology enables us to  operationalize programs at scale.  Expertise lets us make each experience personal.
 											</p>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Automated Infrastructure and Applications</h4>
+												<h4>Team</h4>
 											</div>
 											<p>
-											Enterprise IT infrastructure, applications & end-user support in a hyper-automated unified IT operating model.
+											Datalane has an exceptional team of professionals with profound expertise across multiple tech stacks.
 											</p>
 										</div>
 
@@ -245,7 +246,7 @@ class App extends Component {
 
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Technology</h4>
+												<h4>Digital Technology</h4>
 											</div>
 											<p>
 											Today we supply technology and build experiences that we could only dream of yesterday. And we are already creating tomorrow’s digital, AI and cloud-based experiences. Imagine where our journey will take us next.
@@ -262,7 +263,7 @@ class App extends Component {
 								</div>
 
 								<div className='col-lg-6'>
-									<img src='assets/img/features-2.png' className='img-fluid' alt='' />
+									<img src='assets/img/features-2.png' className='img-fluid' alt='' width='90%'/>
 								</div>
 							</div>
 
