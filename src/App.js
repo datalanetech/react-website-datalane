@@ -63,7 +63,7 @@ class App extends Component {
                     We are a team of visionaries with technology-first approach, for transforming brands around the world, through our services. Our services ensure battle-tested reliability and intelligent optimizations based on Machine learning. 
                   </p>
 										<div className='text-center text-lg-start'>
-											<a href='#' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
+											<a href='#features' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
 												<span>Read More</span>
 												<i className='bi bi-arrow-right'></i>
 											</a>
@@ -155,7 +155,7 @@ class App extends Component {
 
 							<div className='row'>
 								<div className='col-lg-6'>
-									<img src='assets/img/features.png' className='img-fluid' alt='' />
+									<img src='assets/img/bigdata.jpg' className='img-fluid' alt='' />
 								</div>
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
@@ -204,7 +204,7 @@ class App extends Component {
 
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>CX Consulting + Design</h4>
+												<h4>Consulting + Design</h4>
 											</div>
 											<p>
 											Built on data.  Informed by insight.  Everything we do is seamless, secure and customer-centric.  Or should we say, customer-centrix.
@@ -221,7 +221,7 @@ class App extends Component {
 										<div className='tab-pane fade show' id='tab2'>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Operations</h4>
+												<h4>Digital Operations</h4>
 											</div>
 											<p>
 											Datalane powers a diverse range of client solutions.  Technology enables us to  operationalize programs at scale.  Expertise lets us make each experience personal.
@@ -239,7 +239,7 @@ class App extends Component {
 
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Technology</h4>
+												<h4>Digital Technology</h4>
 											</div>
 											<p>
 											Today we supply technology and build experiences that we could only dream of yesterday. And we are already creating tomorrow’s digital, AI and cloud-based experiences. Imagine where our journey will take us next.
@@ -407,9 +407,9 @@ class App extends Component {
 												<i className='bi bi-geo-alt'></i>
 												<h3>Address</h3>
 												<p>
-													A108 Adam Street,
+													Hyderabad, Telangana
 													<br />
-													New York, NY 535022
+													India 500072
 												</p>
 											</div>
 										</div>
@@ -418,9 +418,7 @@ class App extends Component {
 												<i className='bi bi-telephone'></i>
 												<h3>Call Us</h3>
 												<p>
-													+1 5589 55488 55
-													<br />
-													+1 6678 254445 41
+													+91 9248192491
 												</p>
 											</div>
 										</div>
@@ -517,7 +515,6 @@ class App extends Component {
 				<script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
 				<script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
 				<script src='assets/vendor/php-email-form/validate.js'></script>
-
 				<script src='assets/js/main.js'></script>
 			</div>
 		);

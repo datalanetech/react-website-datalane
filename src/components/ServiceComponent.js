@@ -41,6 +41,11 @@ const ServiceComponent = ()=>{
                         description='We can help you make smart data driven decisions that will consildate your competitive advantage'
                     />
 
+                    <ServiceCard
+                        title='Security'
+                        color='pink'
+                        description='Wherever your business goes, whoever it works with, you need cybersecurity that covers it all. We ensure end to end security for all our applications.'
+                    />
 
                     {/* <ServiceCard
                         title='Ledo Markt'
