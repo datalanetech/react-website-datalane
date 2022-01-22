@@ -25,12 +25,11 @@ const Footer = () => {
                     <div className='row gy-4'>
                         <div className='col-lg-5 col-md-12 footer-info'>
                             <a href='index.html' className='logo d-flex align-items-center'>
-                                <img src='assets/img/logo.png' alt='' />
+                                <img src='assets/img/ourlogo.png' alt='' />
                                 <span>Datalane</span>
                             </a>
                             <p>
-                                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa
-                                magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
+                            We deliver next generation applications, to transform your ideas into action.
                             </p>
                             <div className='social-links mt-3'>
                                 <a href='#' className='twitter'>
@@ -48,7 +47,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className='col-lg-2 col-6 footer-links'>
+                        {/* <div className='col-lg-2 col-6 footer-links'>
                             <h4>Useful Links</h4>
                             <ul>
                                 <li>
@@ -67,22 +66,28 @@ const Footer = () => {
                                     <i className='bi bi-chevron-right'></i> <a href='#'>Privacy policy</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
 
                         <div className='col-lg-2 col-6 footer-links'>
                             <h4>Our Services</h4>
                             <ul>
                                 <li>
-                                    <i className='bi bi-chevron-right'></i> <a href='#'>Data Engineering Services</a>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Data Engineering Services</a>
                                 </li>
                                 <li>
-                                    <i className='bi bi-chevron-right'></i> <a href='#'>AI Operations</a>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>AI Operations</a>
                                 </li>
                                 <li>
-                                    <i className='bi bi-chevron-right'></i> <a href='#'>Digital Transformation</a>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Digital Transformation</a>
                                 </li>
                                 <li>
-                                    <i className='bi bi-chevron-right'></i> <a href='#'>Enabling Blockchain Architecture</a>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Blockchain Solutions</a>
+                                </li>
+                                <li>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Business Analytics</a>
+                                </li>
+                                <li>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Security</a>
                                 </li>
                                 {/* <li>
                                     <i className='bi bi-chevron-right'></i> <a href='#'>Graphic Design</a>
@@ -93,10 +98,10 @@ const Footer = () => {
                         <div className='col-lg-3 col-md-12 footer-contact text-center text-md-start'>
                             <h4>Contact Us</h4>
                             <p>
-                                A108 Adam Street <br />
-                                New York, NY 535022
+                                Hyderabad <br />
+                                Telangana, 500072
                                 <br />
-                                United States <br />
+                                India <br />
                                 <br />
                                 {/* <strong>Phone:</strong> +1 5589 55488 55
                                 <br /> */}

@@ -64,8 +64,8 @@ class App extends Component {
                     We are a team of visionaries with technology-first approach, for transforming brands around the world, through our services. Our services ensure battle-tested reliability and intelligent optimizations based on Machine learning. 
                   </p>
 										<div className='text-center text-lg-start'>
-											<a href='#' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
-												<span>Read More</span>
+											<a href='#features' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
+												<span>Our Expertise</span>
 												<i className='bi bi-arrow-right'></i>
 											</a>
 										</div>
@@ -161,7 +161,7 @@ class App extends Component {
 
 							<div className='row'>
 								<div className='col-lg-6'>
-									<img src='assets/img/features-3.png' className='img-fluid' alt=''/>
+									<img src='assets/img/bigdata.jpg' className='img-fluid' alt='' />
 								</div>
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
@@ -170,7 +170,7 @@ class App extends Component {
 
 										<FeatureTile description={'Devops'} />
 
-										<FeatureTile description={'Automation'} />
+										<FeatureTile description={'Big Data Services'} />
 
 										<FeatureTile description={'Microservices'} />
 
@@ -414,9 +414,9 @@ class App extends Component {
 												<i className='bi bi-geo-alt'></i>
 												<h3>Address</h3>
 												<p>
-													A108 Adam Street,
+													Hyderabad, Telangana
 													<br />
-													New York, NY 535022
+													India 500072
 												</p>
 											</div>
 										</div>
@@ -425,9 +425,7 @@ class App extends Component {
 												<i className='bi bi-telephone'></i>
 												<h3>Call Us</h3>
 												<p>
-													+1 5589 55488 55
-													<br />
-													+1 6678 254445 41
+													+91 9248192491
 												</p>
 											</div>
 										</div>
@@ -524,7 +522,6 @@ class App extends Component {
 				<script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
 				<script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
 				<script src='assets/vendor/php-email-form/validate.js'></script>
-
 				<script src='assets/js/main.js'></script>
 			</div>
 		);
