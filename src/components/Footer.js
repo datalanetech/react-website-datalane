@@ -81,7 +81,13 @@ const Footer = () => {
                                     <i className='bi bi-chevron-right'></i> <a href='#services'>Digital Transformation</a>
                                 </li>
                                 <li>
-                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Enabling Blockchain Architecture</a>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Blockchain Solutions</a>
+                                </li>
+                                <li>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Business Analytics</a>
+                                </li>
+                                <li>
+                                    <i className='bi bi-chevron-right'></i> <a href='#services'>Security</a>
                                 </li>
                                 {/* <li>
                                     <i className='bi bi-chevron-right'></i> <a href='#'>Graphic Design</a>
