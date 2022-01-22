@@ -290,7 +290,7 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='100'>
 												<i className='ri-stack-line'></i>
 												<div>
-													<h4>Hybird-Cloud</h4>
+													<h4>Hybrid-Cloud</h4>
 													<p>
 														We build cloud agnostic applications which can be easily deployed on Azure, GCP, AWS and On-Premise as well.
 													</p>
