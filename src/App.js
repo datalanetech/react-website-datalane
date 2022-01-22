@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Values from './components/Values';
 import FeatureTile from './components/FeatureTile';
 import BlogCard from './components/BlogCard';
+import { Helmet } from 'react-helmet';
 import ServiceComponent from './components/ServiceComponent';
 // import TestimonialsComponent from './components/TestimonialsComponent';
 // import TeamComponent from './components/TeamComponent';
@@ -16,6 +17,9 @@ class App extends Component {
 	render() {
 		return (
 			<div className='App'>
+				<Helmet>
+					<script src='./assets/js/main.js' type='text/javascript'></script>
+				</Helmet>
 				<Navbar />
 				<section id="hero" class="hero d-flex align-items-center">
 
