@@ -7,9 +7,9 @@ const ServiceCard = ({ color, title, description }) => {
 				<i className='ri-discuss-line icon'></i>
 				<h3>{title}</h3>
 				<p>{description}</p>
-				<a href='#' className='read-more'>
+				{/* <a href='#' className='read-more'>
 					<span>Read More</span> <i className='bi bi-arrow-right'></i>
-				</a>
+				</a> */}
 			</div>
 		</div>
 	);

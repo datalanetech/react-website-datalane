@@ -30,10 +30,17 @@ const ServiceComponent = ()=>{
                     />
 
                     <ServiceCard
-                        title='Enabling blockchain Architecture'
+                        title='Blockchain Solutions'
                         color='red'
                         description='We empower companies and startups to rethink their models and help them introduce the power of blockchain into their architecture'
                     />
+
+                    <ServiceCard
+                        title='Business Analytics'
+                        color='purple'
+                        description='We can help you make smart data driven decisions that will consildate your competitive advantage'
+                    />
+
 
                     {/* <ServiceCard
                         title='Ledo Markt'

@@ -1,16 +1,18 @@
-import Navbar from './components/navbar';
-
 import React, { Component } from 'react';
+
+import Navbar from './components/navbar';
 import Values from './components/Values';
 import FeatureTile from './components/FeatureTile';
-import BlogCard from './components/BlogCard';
 import { Helmet } from 'react-helmet';
 import ServiceComponent from './components/ServiceComponent';
+import Footer from './components/Footer';
+import FAQComponent from './components/FAQComponent';
+import TechStack from './components/TechStack';
 // import TestimonialsComponent from './components/TestimonialsComponent';
 // import TeamComponent from './components/TeamComponent';
 // import BlogPosts from './components/BlogPosts';
 // import PortfolioComponent from './components/PortfolioComponent';
-import Footer from './components/Footer';
+// import BlogPosts from './components/BlogPosts';
 // import PricingComponent from './components/PricingComponent';
 
 class App extends Component {
@@ -366,165 +368,7 @@ class App extends Component {
 
 					{/* <PricingComponent/> */}
 
-					<section id='faq' className='faq'>
-						<div className='container' data-aos='fade-up'>
-							<header className='section-header'>
-								<h2>F.A.Q</h2>
-								<p>Frequently Asked Questions</p>
-							</header>
-
-							<div className='row'>
-								<div className='col-lg-6'>
-									<div className='accordion accordion-flush' id='faqlist1'>
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq-content-1'>
-													Non consectetur a erat nam at lectus urna duis?
-												</button>
-											</h2>
-											<div
-												id='faq-content-1'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist1'>
-												<div className='accordion-body'>
-													Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
-													lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna
-													porttitor rhoncus dolor purus non.
-												</div>
-											</div>
-										</div>
-
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq-content-2'>
-													Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-												</button>
-											</h2>
-											<div
-												id='faq-content-2'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist1'>
-												<div className='accordion-body'>
-													Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-													interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-													scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-													dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-												</div>
-											</div>
-										</div>
-
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq-content-3'>
-													Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-												</button>
-											</h2>
-											<div
-												id='faq-content-3'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist1'>
-												<div className='accordion-body'>
-													Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-													Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet
-													nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
-													convallis convallis tellus. Urna molestie at elementum eu facilisis sed
-													odio morbi quis
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div className='col-lg-6'>
-									<div className='accordion accordion-flush' id='faqlist2'>
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq2-content-1'>
-													Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-												</button>
-											</h2>
-											<div
-												id='faq2-content-1'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist2'>
-												<div className='accordion-body'>
-													Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-													interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-													scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-													dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-												</div>
-											</div>
-										</div>
-
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq2-content-2'>
-													Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-												</button>
-											</h2>
-											<div
-												id='faq2-content-2'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist2'>
-												<div className='accordion-body'>
-													Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
-													suspendisse in est ante in. Nunc vel risus commodo viverra maecenas
-													accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida
-													quis blandit turpis cursus in
-												</div>
-											</div>
-										</div>
-
-										<div className='accordion-item'>
-											<h2 className='accordion-header'>
-												<button
-													className='accordion-button collapsed'
-													type='button'
-													data-bs-toggle='collapse'
-													data-bs-target='#faq2-content-3'>
-													Varius vel pharetra vel turpis nunc eget lorem dolor?
-												</button>
-											</h2>
-											<div
-												id='faq2-content-3'
-												className='accordion-collapse collapse'
-												data-bs-parent='#faqlist2'>
-												<div className='accordion-body'>
-													Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae
-													ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi
-													est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in
-													metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed
-													egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc
-													non blandit massa enim nec.
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-
+					{/* <FAQComponent/> */}
 					
 
 					{/*<PortfolioComponent/> 
@@ -533,7 +377,7 @@ class App extends Component {
 
 					<TeamComponent/> */}
 
-					<section id='clients' className='clients'>
+					{/* <section id='clients' className='clients'>
 						<div className='container' data-aos='fade-up'>
 							<header className='section-header'>
 								<h2>Our Clients</h2>
@@ -570,36 +414,11 @@ class App extends Component {
 								<div className='swiper-pagination'></div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 
-					<section id='recent-blog-posts' className='recent-blog-posts'>
-						<div className='container' data-aos='fade-up'>
-							<header className='section-header'>
-								<h2>Blog</h2>
-								<p>Recent posts form our Blog</p>
-							</header>
+					<TechStack/>
 
-							<div className='row'>
-								<BlogCard
-									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
-									date='Tue, September 15'
-									image='../assets/img/blog/blog-1.jpg'
-								/>
-
-								<BlogCard
-									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
-									date='Tue, September 15'
-									image='../assets/img/blog/blog-1.jpg'
-								/>
-
-								<BlogCard
-									title='Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit'
-									date='Tue, September 15'
-									image='../assets/img/blog/blog-1.jpg'
-								/>
-							</div>
-						</div>
-					</section>
+					{/* <BlogPosts/> */}
 
 					<section id='contact' className='contact'>
 						<div className='container' data-aos='fade-up'>
@@ -639,8 +458,6 @@ class App extends Component {
 												<h3>Email Us</h3>
 												<p>
 													datalanetech@gmail.com
-													{/* <br />
-													contact@example.com */}
 												</p>
 											</div>
 										</div>
