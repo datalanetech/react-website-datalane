@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import ServiceComponent from './components/ServiceComponent';
 import Footer from './components/Footer';
 import TechStack from './components/TechStack';
+import CountUp from 'react-countup';
 // import FAQComponent from './components/FAQComponent';
 // import TestimonialsComponent from './components/TestimonialsComponent';
 // import TeamComponent from './components/TeamComponent';
@@ -90,12 +91,14 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-emoji-smile'></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='1'
 												data-purecounter-duration='1'
 												className='purecounter'
-											/>
+											>
+												0</span> */}
+											<CountUp end={1} duration={2}/>
 											<p>Happy Clients</p>
 										</div>
 									</div>
@@ -105,11 +108,12 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-journal-richtext' style={{ color: '#ee6c20' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='1'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
+												className='purecounter'></span> */}
+											<CountUp end={1} duration={2}/>
 											<p>Projects</p>
 										</div>
 									</div>
@@ -119,11 +123,12 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-headset' style={{ color: '#15be56' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='200'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
+												className='purecounter'></span> */}
+											<CountUp end={200} duration={2}/>
 											<p>Hours Of Support</p>
 										</div>
 									</div>
@@ -133,12 +138,13 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-people' style={{ color: '#bb0852' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='5'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
-											<p>Hard Workers</p>
+												className='purecounter'></span> */}
+											<CountUp end={6} duration={2}/>
+											<p>Smart Workers</p>
 										</div>
 									</div>
 								</div>
