@@ -100,7 +100,7 @@ const Footer = () => {
                                 <br />
                                 {/* <strong>Phone:</strong> +1 5589 55488 55
                                 <br /> */}
-                                <strong>Email:</strong> datalanetech@gmail.com
+                                <strong>Email:</strong> sales@datalane.in
                                 <br />
                             </p>
                         </div>
