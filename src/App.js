@@ -98,7 +98,7 @@ class App extends Component {
 												className='purecounter'
 											>
 												0</span> */}
-											<CountUp end={1} duration={2}/>
+											<CountUp end={3} duration={2}/>
 											<p>Happy Clients</p>
 										</div>
 									</div>
@@ -113,7 +113,7 @@ class App extends Component {
 												data-purecounter-end='1'
 												data-purecounter-duration='1'
 												className='purecounter'></span> */}
-											<CountUp end={1} duration={2}/>
+											<CountUp end={3} duration={2}/>
 											<p>Projects</p>
 										</div>
 									</div>
@@ -128,7 +128,7 @@ class App extends Component {
 												data-purecounter-end='200'
 												data-purecounter-duration='1'
 												className='purecounter'></span> */}
-											<CountUp end={200} duration={2}/>
+											<CountUp end={600} duration={2}/>
 											<p>Hours Of Support</p>
 										</div>
 									</div>
@@ -434,7 +434,7 @@ class App extends Component {
 												<i className='bi bi-envelope'></i>
 												<h3>Email Us</h3>
 												<p>
-													datalanetech@gmail.com
+													sales@datalane.in
 												</p>
 											</div>
 										</div>
