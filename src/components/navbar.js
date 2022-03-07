@@ -24,20 +24,20 @@ class Navbar extends Component {
 									</a>
 								</li>
 								<li>
+									<a className='nav-link scrollto' href='#values'>
+										Values
+									</a>
+								</li>
+								<li>
 									<a className='nav-link scrollto' href='#services'>
 										Services
 									</a>
 								</li>
-								{/* <li>
-									<a className='nav-link scrollto' href='#portfolio'>
-										Portfolio
+								<li>
+									<a className='nav-link scrollto' href='#features'>
+										Features
 									</a>
-								</li> */}
-								{/* <li>
-									<a className='nav-link scrollto' href='#team'>
-										Team
-									</a>
-								</li> */}
+								</li>
 								{/* <li>
 									<a href='blog.html'>Blog</a>
 								</li> */}

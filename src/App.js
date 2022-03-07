@@ -6,8 +6,9 @@ import FeatureTile from './components/FeatureTile';
 import { Helmet } from 'react-helmet';
 import ServiceComponent from './components/ServiceComponent';
 import Footer from './components/Footer';
-import FAQComponent from './components/FAQComponent';
 import TechStack from './components/TechStack';
+import CountUp from 'react-countup';
+// import FAQComponent from './components/FAQComponent';
 // import TestimonialsComponent from './components/TestimonialsComponent';
 // import TeamComponent from './components/TeamComponent';
 // import BlogPosts from './components/BlogPosts';
@@ -63,8 +64,8 @@ class App extends Component {
                     We are a team of visionaries with technology-first approach, for transforming brands around the world, through our services. Our services ensure battle-tested reliability and intelligent optimizations based on Machine learning. 
                   </p>
 										<div className='text-center text-lg-start'>
-											<a href='#' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
-												<span>Read More</span>
+											<a href='#features' className='btn-read-more d-inline-flex align-items-center justify-content-center align-self-center'>
+												<span>Our Expertise</span>
 												<i className='bi bi-arrow-right'></i>
 											</a>
 										</div>
@@ -90,12 +91,14 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-emoji-smile'></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='1'
 												data-purecounter-duration='1'
 												className='purecounter'
-											/>
+											>
+												0</span> */}
+											<CountUp end={1} duration={2}/>
 											<p>Happy Clients</p>
 										</div>
 									</div>
@@ -105,11 +108,12 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-journal-richtext' style={{ color: '#ee6c20' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='1'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
+												className='purecounter'></span> */}
+											<CountUp end={1} duration={2}/>
 											<p>Projects</p>
 										</div>
 									</div>
@@ -119,11 +123,12 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-headset' style={{ color: '#15be56' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='200'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
+												className='purecounter'></span> */}
+											<CountUp end={200} duration={2}/>
 											<p>Hours Of Support</p>
 										</div>
 									</div>
@@ -133,12 +138,13 @@ class App extends Component {
 									<div className='count-box'>
 										<i className='bi bi-people' style={{ color: '#bb0852' }}></i>
 										<div>
-											<span
+											{/* <span
 												data-purecounter-start='0'
 												data-purecounter-end='5'
 												data-purecounter-duration='1'
-												className='purecounter'></span>
-											<p>Hard Workers</p>
+												className='purecounter'></span> */}
+											<CountUp end={6} duration={2}/>
+											<p>Smart Workers</p>
 										</div>
 									</div>
 								</div>
@@ -149,28 +155,28 @@ class App extends Component {
 					<section id='features' className='features'>
 						<div className='container' data-aos='fade-up'>
 							<header className='section-header'>
-								<h2>Features</h2>
-								<p>Laboriosam et omnis fuga quis dolor direda fara</p>
+								{/* <h2>Our Expertis</h2> */}
+								<p>Our Expertise</p>
 							</header>
 
 							<div className='row'>
 								<div className='col-lg-6'>
-									<img src='assets/img/features.png' className='img-fluid' alt='' />
+									<img src='assets/img/bigdata.jpg' className='img-fluid' alt='' />
 								</div>
 
 								<div className='col-lg-6 mt-5 mt-lg-0 d-flex'>
 									<div className='row align-self-center gy-4'>
-										<FeatureTile description={'Agile Approach'} />
+										<FeatureTile description={'Cloud Solutions'} />
 
-										<FeatureTile description={''} />
+										<FeatureTile description={'Devops'} />
 
-										<FeatureTile description={'Volup amet voluptas'} />
+										<FeatureTile description={'Big Data Services'} />
 
-										<FeatureTile description={'Rerum omnis sint'} />
+										<FeatureTile description={'Microservices'} />
 
-										<FeatureTile description={'Alias possimus'} />
+										<FeatureTile description={'Analytics Solutions'} />
 
-										<FeatureTile description={'Repellendus mollitia'} />
+										<FeatureTile description={'Data Inteligence'} />
 									</div>
 								</div>
 							</div>
@@ -184,7 +190,7 @@ class App extends Component {
 									<ul className='nav nav-pills mb-3'>
 										<li>
 											<a className='nav-link active' data-bs-toggle='pill' href='#tab1'>
-												Strategy
+												Delivery
 											</a>
 										</li>
 										<li>
@@ -202,36 +208,37 @@ class App extends Component {
 									<div className='tab-content'>
 										<div className='tab-pane fade show active' id='tab1'>
 
-											<div className='d-flex align-items-center mb-2'>
+										<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>CX Consulting + Design</h4>
-											</div>
-											<p>
-											Built on data.  Informed by insight.  Everything we do is seamless, secure and customer-centric.  Or should we say, customer-centrix.
-											</p>
-											<div className='d-flex align-items-center mb-2'>
-												<i className='bi bi-check2'></i>
-												<h4>Experience channels and Innovation</h4>
+												<h4>World Class Consulting</h4>
 											</div>
 											<p>
 											We craft delightful, outcome-driven experiences for consumers, partners and employees by building cutting edge digital experiences for web, mobile and other devices
 											</p>
+											<div className='d-flex align-items-center mb-2'>
+												<i className='bi bi-check2'></i>
+												<h4>Consumer Centric</h4>
+											</div>
+											<p>
+											Everything we do is seamless, secure and customer-centric. Customer is the focal point of all decisions related to delivering products
+											</p>
+
 										</div>
 
 										<div className='tab-pane fade show' id='tab2'>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Operations</h4>
+												<h4>Experience</h4>
 											</div>
 											<p>
 											Datalane powers a diverse range of client solutions.  Technology enables us to  operationalize programs at scale.  Expertise lets us make each experience personal.
 											</p>
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Automated Infrastructure and Applications</h4>
+												<h4>Team</h4>
 											</div>
 											<p>
-											Enterprise IT infrastructure, applications & end-user support in a hyper-automated unified IT operating model.
+											Datalane has an exceptional team of professionals with profound expertise across multiple tech stacks.
 											</p>
 										</div>
 
@@ -239,7 +246,7 @@ class App extends Component {
 
 											<div className='d-flex align-items-center mb-2'>
 												<i className='bi bi-check2'></i>
-												<h4>Digital CX Technology</h4>
+												<h4>Digital Technology</h4>
 											</div>
 											<p>
 											Today we supply technology and build experiences that we could only dream of yesterday. And we are already creating tomorrow’s digital, AI and cloud-based experiences. Imagine where our journey will take us next.
@@ -256,7 +263,7 @@ class App extends Component {
 								</div>
 
 								<div className='col-lg-6'>
-									<img src='assets/img/features-2.png' className='img-fluid' alt='' />
+									<img src='assets/img/features-2.png' className='img-fluid' alt='' width='90%'/>
 								</div>
 							</div>
 
@@ -283,7 +290,7 @@ class App extends Component {
 											<div className='col-md-6 icon-box' data-aos='fade-up' data-aos-delay='100'>
 												<i className='ri-stack-line'></i>
 												<div>
-													<h4>Hybird-Cloud</h4>
+													<h4>Hybrid-Cloud</h4>
 													<p>
 														We build cloud agnostic applications which can be easily deployed on Azure, GCP, AWS and On-Premise as well.
 													</p>
@@ -407,9 +414,9 @@ class App extends Component {
 												<i className='bi bi-geo-alt'></i>
 												<h3>Address</h3>
 												<p>
-													A108 Adam Street,
+													Hyderabad, Telangana
 													<br />
-													New York, NY 535022
+													India 500072
 												</p>
 											</div>
 										</div>
@@ -418,9 +425,7 @@ class App extends Component {
 												<i className='bi bi-telephone'></i>
 												<h3>Call Us</h3>
 												<p>
-													+1 5589 55488 55
-													<br />
-													+1 6678 254445 41
+													+91 9248192491
 												</p>
 											</div>
 										</div>
@@ -506,7 +511,7 @@ class App extends Component {
 
 				<Footer/>
 
-				<a href='#' className='back-to-top d-flex align-items-center justify-content-center'>
+				<a href='/#' className='back-to-top d-flex align-items-center justify-content-center'>
 					<i className='bi bi-arrow-up-short'></i>
 				</a>
 
@@ -517,7 +522,6 @@ class App extends Component {
 				<script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
 				<script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
 				<script src='assets/vendor/php-email-form/validate.js'></script>
-
 				<script src='assets/js/main.js'></script>
 			</div>
 		);
