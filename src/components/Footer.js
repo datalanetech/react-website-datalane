@@ -41,7 +41,7 @@ const Footer = () => {
                                 <a href='/#' className='instagram'>
                                     <i className='bi bi-instagram'></i>
                                 </a>
-                                <a href='/#' className='linkedin'>
+                                <a href='https://www.linkedin.com/in/datalane-technologies-54b252232/' target="_blank" className='linkedin'>
                                     <i className='bi bi-linkedin'></i>
                                 </a>
                             </div>

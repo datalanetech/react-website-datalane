@@ -25,7 +25,7 @@ class Values extends Component {
 							<div className='col-lg-4 mt-4 mt-lg-0' data-aos='fade-up' data-aos-delay='400'>
 								<div className='box'>
 									<img src='assets/img/values-2.png' className='img-fluid' alt='' />
-									<h3>Agility</h3>
+									<h3>Agile</h3>
 									<p>
 									We challenge the status quo with open minds, focus, and speed.
 
@@ -36,7 +36,7 @@ class Values extends Component {
 							<div className='col-lg-4 mt-4 mt-lg-0' data-aos='fade-up' data-aos-delay='600'>
 								<div className='box'>
 									<img src='assets/img/values-3.png' className='img-fluid' alt='' />
-									<h3>Accountability</h3>
+									<h3>Accountable</h3>
 									<p>
 									We empower each other to take ownership of our actions.
 									</p>

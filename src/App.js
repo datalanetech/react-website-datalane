@@ -87,7 +87,7 @@ class App extends Component {
 					<section id='counts' className='counts'>
 						<div className='container' data-aos='fade-up'>
 							<div className='row gy-4'>
-								<div className='col-lg-3 col-md-6'>
+								<div className='col-lg-4'>
 									<div className='count-box'>
 										<i className='bi bi-emoji-smile'></i>
 										<div>
@@ -104,7 +104,7 @@ class App extends Component {
 									</div>
 								</div>
 
-								<div className='col-lg-3 col-md-6'>
+								<div className='col-lg-4'>
 									<div className='count-box'>
 										<i className='bi bi-journal-richtext' style={{ color: '#ee6c20' }}></i>
 										<div>
@@ -119,7 +119,7 @@ class App extends Component {
 									</div>
 								</div>
 
-								<div className='col-lg-3 col-md-6'>
+								{false && <div className='col-lg-4'>
 									<div className='count-box'>
 										<i className='bi bi-headset' style={{ color: '#15be56' }}></i>
 										<div>
@@ -132,9 +132,9 @@ class App extends Component {
 											<p>Hours Of Support</p>
 										</div>
 									</div>
-								</div>
+								</div>}
 
-								<div className='col-lg-3 col-md-6'>
+								<div className='col-lg-4'>
 									<div className='count-box'>
 										<i className='bi bi-people' style={{ color: '#bb0852' }}></i>
 										<div>
@@ -143,7 +143,7 @@ class App extends Component {
 												data-purecounter-end='5'
 												data-purecounter-duration='1'
 												className='purecounter'></span> */}
-											<CountUp end={6} duration={2}/>
+											<CountUp end={18} duration={2}/>
 											<p>Smart Workers</p>
 										</div>
 									</div>
