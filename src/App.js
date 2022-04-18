@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
 import Navbar from './components/navbar';
 import Values from './components/Values';
@@ -8,6 +8,7 @@ import ServiceComponent from './components/ServiceComponent';
 import Footer from './components/Footer';
 import TechStack from './components/TechStack';
 import CountUp from 'react-countup';
+import { send } from 'emailjs-com';
 // import FAQComponent from './components/FAQComponent';
 // import TestimonialsComponent from './components/TestimonialsComponent';
 // import TeamComponent from './components/TeamComponent';
@@ -16,8 +17,44 @@ import CountUp from 'react-countup';
 // import BlogPosts from './components/BlogPosts';
 // import PricingComponent from './components/PricingComponent';
 
-class App extends Component {
-	render() {
+// class App extends Component {
+	// render() {
+const App = () => {
+	const [toSend, setToSend] = useState({
+		from_name: '',
+		message: '',
+		reply_to: '',
+		subject: ''
+	  });
+
+	  const handleChange = (e) => {
+		setToSend({ ...toSend, [e.target.name]: e.target.value });
+	  };
+
+	  const sendEmail = (e) => {
+		e.preventDefault();
+		send(
+		  'service_l5dpl18',
+		  'template_evdm919',
+		  toSend,
+		  'p21NpXSrN-bfmtEuE'
+		)
+		  .then((response) => {
+			alert("Message sent successfully! We will get back to you shortly.");
+		  })
+		  .catch((err) => {
+			alert("An error occurred. Please try after sometime.");
+			console.log('FAILED...', err);
+		  })
+		  .finally(
+			setToSend({
+				from_name: '',
+				message: '',
+				reply_to: '',
+				subject: ''
+			  })
+		  );
+	  }
 		return (
 			<div className='App'>
 				<Helmet>
@@ -453,14 +490,16 @@ class App extends Component {
 								</div>
 
 								<div className='col-lg-6'>
-									<form action='forms/contact.php' method='post' className='php-email-form'>
+									<form action='forms/contact.php' onSubmit={sendEmail} method='post' className='php-email-form'>
 										<div className='row gy-4'>
 											<div className='col-md-6'>
 												<input
 													type='text'
-													name='name'
+													name='from_name'
 													className='form-control'
 													placeholder='Your Name'
+													value={toSend.from_name}
+													onChange={handleChange}
 													required
 												/>
 											</div>
@@ -469,8 +508,10 @@ class App extends Component {
 												<input
 													type='email'
 													className='form-control'
-													name='email'
+													name='reply_to'
 													placeholder='Your Email'
+													value={toSend.reply_to}
+													onChange={handleChange}
 													required
 												/>
 											</div>
@@ -481,6 +522,8 @@ class App extends Component {
 													className='form-control'
 													name='subject'
 													placeholder='Subject'
+													value={toSend.subject}
+													onChange={handleChange}
 													required
 												/>
 											</div>
@@ -491,6 +534,8 @@ class App extends Component {
 													name='message'
 													rows='6'
 													placeholder='Message'
+													value={toSend.message}
+													onChange={handleChange}
 													required></textarea>
 											</div>
 
@@ -526,5 +571,4 @@ class App extends Component {
 			</div>
 		);
 	}
-}
 export default App;
