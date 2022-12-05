@@ -461,9 +461,6 @@ const App = () => {
 											<div className='info-box'>
 												<i className='bi bi-telephone'></i>
 												<h3>Call Us</h3>
-												<p>
-													+91 9248192491
-												</p>
 											</div>
 										</div>
 										<div className='col-md-6'>
